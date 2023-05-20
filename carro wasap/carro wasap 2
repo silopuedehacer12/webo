@@ -1,0 +1,19 @@
+var firebaseConfig = {
+    apiKey: "AIzaSyDNs5yrN7SIRJ2d7xIPBJLxDKrW4iG-sJg",
+    authDomain: "life-could-be-dream-4af26.firebaseapp.com",
+    databaseURL: "https://life-could-be-dream-4af26-default-rtdb.firebaseio.com",
+    projectId: "life-could-be-dream-4af26",
+    storageBucket: "life-could-be-dream-4af26.appspot.com",
+    messagingSenderId: "574097517273",
+    appId: "1:574097517273:web:05736d66a91986ba0bacc8"
+  };
+  
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+function a(){
+    username=document.getElementById("Energía").value;
+    localStorage.setItem("Energía", username);
+    window.location="kwitter_room (1).html"
+}
+
+
